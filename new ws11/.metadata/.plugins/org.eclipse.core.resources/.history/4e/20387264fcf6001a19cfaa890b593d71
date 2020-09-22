@@ -1,0 +1,5 @@
+package com.hub.rest.rest_H2;
+
+public class SwaggerConfig {
+
+}

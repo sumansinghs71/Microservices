@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.springframework.hateoas.EntityModel"/>
+<fullyQualifiedTypeName name="org.springframework.hateoas.server.mvc.WebMvcLinkBuilder"/>
+<fullyQualifiedTypeName name="org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties.LocaleResolver"/>
+<fullyQualifiedTypeName name="java.util.ResourceBundle"/>
+<fullyQualifiedTypeName name="org.springframework.context.support.ResourceBundleMessageSource"/>
+<fullyQualifiedTypeName name="org.springframework.context.MessageSource"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestHeader"/>
+<fullyQualifiedTypeName name="java.util.Locale"/>
+<fullyQualifiedTypeName name="org.springframework.context.i18n.LocaleContextHolder"/>
+<fullyQualifiedTypeName name="org.springframework.web.servlet.i18n.SessionLocaleResolver"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
+<fullyQualifiedTypeName name="springfox.documentation.spring.web.plugins.Docket"/>
+<fullyQualifiedTypeName name="springfox.documentation.spi.DocumentationType"/>
+<fullyQualifiedTypeName name="io.swagger.annotations.Contact"/>
+<fullyQualifiedTypeName name="java.util.Set"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="springfox.documentation.swagger2.annotations.EnableSwagger2WebFlux"/>
+<fullyQualifiedTypeName name="springfox.documentation.spring.data.rest.configuration.SpringDataRestConfiguration"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Import"/>
+<fullyQualifiedTypeName name="springfox.documentation.swagger2.annotations.EnableSwagger2WebMvc"/>
+<fullyQualifiedTypeName name="com.fasterxml.jackson.annotation.JsonIgnore"/>
+<fullyQualifiedTypeName name="com.fasterxml.jackson.annotation.JsonIgnoreProperties"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
+<fullyQualifiedTypeName name="org.springframework.data.jpa.repository.JpaRepository"/>
+<fullyQualifiedTypeName name="com.hub.rest.rest_H2.user.User"/>
+<fullyQualifiedTypeName name="com.hub.rest.rest_H2.user.UserRepository"/>
+<fullyQualifiedTypeName name="springfox.documentation.builders.RequestHandlerSelectors"/>
+<fullyQualifiedTypeName name="springfox.documentation.builders.PathSelectors"/>
+<fullyQualifiedTypeName name="javax.persistence.Entity"/>
+<fullyQualifiedTypeName name="springfox.documentation.swagger2.annotations.EnableSwagger2"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
+<fullyQualifiedTypeName name="com.microservices.limitsservice.bean.LimitConfiguration"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
+<fullyQualifiedTypeName name="com.microservices.limitsservice.Configuration"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+</qualifiedTypeNameHistroy>

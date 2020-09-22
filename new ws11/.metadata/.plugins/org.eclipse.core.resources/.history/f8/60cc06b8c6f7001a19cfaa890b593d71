@@ -1,0 +1,7 @@
+package com.hub.rest.rest_H2.versioning;
+
+public class Name {
+	
+	private String firstName;
+	private String lastName;
+}

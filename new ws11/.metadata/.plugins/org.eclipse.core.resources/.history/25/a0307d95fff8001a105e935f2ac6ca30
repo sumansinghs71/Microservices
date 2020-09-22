@@ -1,0 +1,3 @@
+spring.application.name=spring-cloud-config-server
+spring.port=8888
+spring.cloud.config.service.git.url=file:///D:/In28/git-local-config

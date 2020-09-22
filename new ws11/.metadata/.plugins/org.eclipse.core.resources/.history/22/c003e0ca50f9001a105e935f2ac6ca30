@@ -1,0 +1,3 @@
+#If we comment any of these 2 lines it will pick the value from the default
+limits-service.minimum=2
+limits-service.maximum=22

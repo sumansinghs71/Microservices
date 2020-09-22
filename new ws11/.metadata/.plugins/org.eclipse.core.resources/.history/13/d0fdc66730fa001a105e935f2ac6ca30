@@ -1,0 +1,20 @@
+package com.microservices.currencyconversionservice;
+
+import org.springframework.cloud.netflix.ribbon.RibbonClient;
+import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+
+// here name should be same as the name defined in the application properties of currency exchange service
+//@FeignClient(name="currency-exchange-service",url="localhost:8000")
+// Since url can have multple instances we put that in properties files and also adding ribbon to distribute the load
+@FeignClient(name="currency-exchange-service")
+@RibbonClient(name="currency-exchange-service")
+public interface CurrencyExchangeServiceProxy {
+	
+	// here we copied method signature from currency exchange service and made a change of return typr since we so not have exchange value here
+	// Also For @PathVariable we should convert it to @PathVariable("from") for the feign, or else it gives error
+	@GetMapping("currency-exchange/from/{from}/to/{to}")
+	public CurrencyConversionBean retrieveExchangeValue(@PathVariable("from") String from, @PathVariable("to") String to);
+
+}
